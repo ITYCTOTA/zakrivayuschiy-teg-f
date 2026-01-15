@@ -35,12 +35,12 @@
 }
 
 .header__title {
-  font-size: clamp(49px, 4.5vw, 65px);
+  font-size: clamp(49px, calc(40px + 1.75vw), 65px);
   margin-block-end: 20px;
 }
 
 .header__text {
-  font-size: clamp(14px, 1.6vw, 23px);
+  font-size: clamp(14px, calc(14px + 0.625vw), 23px);
   text-transform: uppercase;
 }
 
