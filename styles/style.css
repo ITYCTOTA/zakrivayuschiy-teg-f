@@ -12,6 +12,8 @@
 .page {
   min-inline-size: 320px;
   min-block-size: 100dvb;
+  max-inline-size: 700px;
+  margin: 98px auto;
 
   font-family: var(--main-font), sans-serif;
 
@@ -20,10 +22,6 @@
   background-attachment: fixed;
   background-repeat: no-repeat;
 
-
-  max-inline-size: 700px;
-  min-inline-size: 375px;
-  margin: 98px auto;
 }
 
 .header {
