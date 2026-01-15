@@ -303,7 +303,6 @@ button:not(.card__icon-button):focus {
 
 .save-button__text {
   translate: 0 5px;
-  mix-blend-mode: difference;
   line-height: 90%;
 }
 
