@@ -40,7 +40,7 @@
 }
 
 .header__text {
-  font-size: clamp(14px, 1.5972vw, 23px);
+  font-size: clamp(14px, 1.6vw, 23px);
   text-transform: uppercase;
 }
 
@@ -98,7 +98,7 @@
 
 .grayscale-filter {
   filter: grayscale(90%);
-  translate: -75px 0;
+  transform: translate(-75px, 0);
 }
 
 .saturation-filter {
@@ -111,7 +111,7 @@
 
 .sepia-filter {
   filter: sepia(100%) saturate(70%);
-  translate: -350px 0;
+  transform: translate(-350px, 0);
 }
 
 .negative-filter {
