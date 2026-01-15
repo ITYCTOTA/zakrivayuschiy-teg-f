@@ -110,7 +110,7 @@
 }
 
 .sepia-filter {
-  filter: sepia(100%);
+  filter: sepia(100%) saturate(70%);
   translate: -350px 0;
 }
 
