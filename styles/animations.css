@@ -11,17 +11,17 @@
 */
 
 
-@keyframes button-animation {
+@keyframes heart-scale-animation { /* думаю, так более понятно, что это про анимации увеличения и брызг */
   0% {
-    transform: scaleX(0);
+    transform: scale(1);
   }
 
   100% {
-    transform: scaleX(1);
+    transform: scale(1.25);
   }
 }
 
-@keyframes like-animation {
+@keyframes heart-sparks-animation {
   0% {
     opacity: 0;
   }
