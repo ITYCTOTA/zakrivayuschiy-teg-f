@@ -149,7 +149,7 @@
   gap: 6px;
 }
 
-button {
+.button {  /* сделал просто класс button, тк он сильнее всего опишет самую обычную кнопку */
   font-family: var(--secondary-font), sans-serif;
   color: var(--bg-color);
   background-color: var(--bg-color);
@@ -261,7 +261,7 @@ button {
   mix-blend-mode: difference;
 }
 
-button:not(.card__icon-button)::before {
+.button::before {
   content: '';
   position: absolute;
   top: 0;
@@ -275,11 +275,11 @@ button:not(.card__icon-button)::before {
   transition: transform 0.5s ease-in-out;
 }
 
-button:not(.card__icon-button):hover::before {
+.button:hover::before {
   transform: scaleX(1);
 }
 
-button:not(.card__icon-button):focus {
+.button:focus {
   outline: none;
   box-shadow: 2px 2px 0 var(--accent-color);
 }
@@ -330,7 +330,6 @@ button:not(.card__icon-button):focus {
   max-inline-size: 234px;
   line-height: 150%;
   font-size: 14px;
-  text-transform: uppercase;
 }
 
 .dialog-button {

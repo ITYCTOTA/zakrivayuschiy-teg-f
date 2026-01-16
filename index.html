@@ -61,7 +61,7 @@
                 fill="var(--animation-fill-color)" />
             </svg>
           </button>
-          <button class="card__like-button" type="button">
+          <button class="button card__like-button" type="button">  <!-- добавил общий класс button для стилей во всех карточках -->
             <span class="button__text">Like</span>
             <!-- сказано использовать button__text, не знаю, что придумать можно( -->
           </button>
@@ -83,7 +83,7 @@
           скрываются более глубокие вопросы: с чего начать? а вдруг будет слишком сложно? что, если я не справлюсь?
         </p>
         <p>
-          Было довольно легко, тк некую базу я уже имел. Всё делалось на одном дыхании!
+          Было довольно легко, так как некую базу я уже имел. Всё делалось на одном дыхании!
         </p>
 
         <div class="card__footer">
@@ -106,7 +106,7 @@
                 fill="var(--animation-fill-color)" />
             </svg>
           </button>
-          <button class="card__like-button" type="button">
+          <button class="button card__like-button" type="button">
             <span class="button__text">Like</span>
           </button>
         </div>
@@ -149,7 +149,7 @@
                 fill="var(--animation-fill-color)" />
             </svg>
           </button>
-          <button class="card__like-button" type="button">
+          <button class="button card__like-button" type="button">
             <span class="button__text">Like</span>
           </button>
         </div>
@@ -193,7 +193,7 @@
                 fill="var(--animation-fill-color)" />
             </svg>
           </button>
-          <button class="card__like-button" type="button">
+          <button class="button card__like-button" type="button">
             <span class="button__text">Like</span>
           </button>
         </div>
@@ -238,7 +238,7 @@
                 fill="var(--animation-fill-color)" />
             </svg>
           </button>
-          <button class="card__like-button" type="button">
+          <button class="button card__like-button" type="button">
             <span class="button__text">Like</span>
           </button>
         </div>
@@ -281,7 +281,7 @@
                 fill="var(--animation-fill-color)" />
             </svg>
           </button>
-          <button class="card__like-button" type="button">
+          <button class="button card__like-button" type="button">
             <span class="button__text">Like</span>
           </button>
         </div>
@@ -325,7 +325,7 @@
                 fill="var(--animation-fill-color)" />
             </svg>
           </button>
-          <button class="card__like-button" type="button">
+          <button class="button card__like-button" type="button">
             <span class="button__text">Like</span>
           </button>
         </div>
@@ -370,7 +370,7 @@
                 fill="var(--animation-fill-color)" />
             </svg>
           </button>
-          <button class="card__like-button" type="button">
+          <button class="button card__like-button" type="button">
             <span class="button__text">Like</span>
           </button>
         </div>
@@ -380,7 +380,7 @@
   </main>
 
   <div class="save-section"> <!-- переименовал в секцию сохранения и кнопку тоже -->
-    <button class="save-section__save-button" type="button" onclick="window['floppy'].showModal()">
+    <button class="button save-section__save-button" type="button" onclick="window['floppy'].showModal()">
       <svg class="floppy" width="21" height="21" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 39 39">
         <use href="svg/icons.svg#floppy"></use>
       </svg>
@@ -393,10 +393,10 @@
       <svg class="floppy" width="39" height="39">
         <use href="svg/icons.svg#floppy"></use>
       </svg>
-      <p class="dialog__text">Вставьте дискету, чтобы продолжить</p>
+      <p class="dialog__text uppercase-text">Вставьте дискету, чтобы продолжить</p>
     </div>
-    <button class="dialog-button" type="button" onclick="window['floppy'].close()">
-      <span class="button__text">ок</span>
+    <button class="button dialog-button" type="button" onclick="window['floppy'].close()">
+      <span class="button__text uppercase-text">ок</span>
     </button>
   </dialog>
 
