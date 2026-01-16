@@ -61,7 +61,7 @@
                 fill="var(--animation-fill-color)" />
             </svg>
           </button>
-          <button class="button card__like-button" type="button">  <!-- добавил общий класс button для стилей во всех карточках -->
+          <button class="button card__like-button" type="button">  <!-- добавил общий класс .button со стилями во всех карточках -->
             <span class="button__text">Like</span>
             <!-- сказано использовать button__text, не знаю, что придумать можно( -->
           </button>
@@ -393,10 +393,10 @@
       <svg class="floppy" width="39" height="39">
         <use href="svg/icons.svg#floppy"></use>
       </svg>
-      <p class="dialog__text uppercase-text">Вставьте дискету, чтобы продолжить</p>
+      <p class="dialog__text uppercase-text">Вставьте дискету, чтобы продолжить</p> <!-- применил .uppercase-text, не заприметил в макете -->
     </div>
     <button class="button dialog-button" type="button" onclick="window['floppy'].close()">
-      <span class="button__text uppercase-text">ок</span>
+      <span class="button__text uppercase-text">ок</span> <!-- применил .uppercase-text, не заприметил в макете -->
     </button>
   </dialog>
 

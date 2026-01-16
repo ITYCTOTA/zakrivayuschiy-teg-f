@@ -261,7 +261,7 @@
   mix-blend-mode: difference;
 }
 
-.button::before {
+.button::before { /* использовал класс .button для всех остальных стилей */
   content: '';
   position: absolute;
   top: 0;
